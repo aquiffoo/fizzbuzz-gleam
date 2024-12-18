@@ -12,8 +12,8 @@ fn fb(n: Int) -> String {
 }
 
 pub fn fb_range(
-    start: Int,
-    stop: Int
+  start: Int,
+  stop: Int
 ) -> String {
   let _results = list.range(start, stop)
   |> list.map(fb)

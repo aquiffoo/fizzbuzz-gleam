@@ -7,5 +7,5 @@ Simple HTTP server that returns a FizzBuzz range, my first Gleam project
 fizzbuzz % gleam run
 ```
 ```bash
-curl -H "stop: [number]" http://localhost:6969 && echo ;
+fizzbuzz % curl -H "stop: [number]" http://localhost:6969 && echo ;
 ```
